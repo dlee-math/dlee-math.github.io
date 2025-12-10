@@ -1,11 +1,131 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>My Academic Website</title>
-  </head>
-  <body>
-    <h1>Hello</h1>
-    <p>This is my first GitHub website.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D. Lee | Mathematics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic website of D. Lee.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header: Name + Photo + Intro -->
+    <header class="header">
+      <div class="header-left">
+        <h1 class="name">D. Lee</h1>
+        <p class="affiliation">
+          PhD Student in Mathematics<br>
+          Harvard University
+        </p>
+        <p class="contact">
+          <a href="mailto:your-email@math.harvard.edu">your-email@math.harvard.edu</a>
+        </p>
+        <p class="intro">
+          I am a mathematics PhD student working in symplectic geometry and
+          Homological Mirror Symmetry. My interests include Fukaya categories,
+          Floer theory, microlocal sheaf theory, and geometric aspects of HMS.
+        </p>
+      </div>
+
+      <div class="header-right">
+        <!-- Replace with the actual file, e.g. img/profile.jpg -->
+        <img src="profile.jpg" alt="D. Lee" class="profile-photo">
+      </div>
+    </header>
+
+    <hr>
+
+    <!-- Research Interests -->
+    <section id="interests">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Symplectic geometry and Lagrangian Floer theory</li>
+        <li>Homological Mirror Symmetry (toric, SYZ, and non-toric)</li>
+        <li>Fukaya categories and categorical structures</li>
+        <li>Microlocal sheaf theory and FLTZ skeleta</li>
+        <li>Deformation theory and homological algebra</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- Publications -->
+    <section id="publications">
+      <h2>Publications</h2>
+
+      <p class="pub-note">(* denotes alphabetical ordering.)</p>
+
+      <ul class="pub-list">
+
+        <li class="pub-item">
+          <span class="pub-title"><strong>Title of Your Paper</strong></span><br>
+          <span class="pub-authors">D. Lee*, Coauthor Name</span><br>
+          <span class="pub-venue">arXiv:XXXX.XXXXX, 2025.</span><br>
+          <a href="#">PDF</a> | <a href="#">arXiv</a> | <a href="#">Slides</a>
+        </li>
+
+        <!-- Copy and paste this structure for more papers
+        <li class="pub-item">
+          <span class="pub-title"><strong>Another Paper Title</strong></span><br>
+          <span class="pub-authors">D. Lee</span><br>
+          <span class="pub-venue">Preprint, 2025.</span><br>
+          <a href="#">PDF</a>
+        </li>
+        -->
+
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- Notes -->
+    <section id="notes">
+      <h2>Notes and Talks</h2>
+
+      <ul class="note-list">
+        <li>
+          <strong>Title of a Note or Talk</strong><br>
+          <span class="note-meta">Seminar Name, Institution, Month Year</span><br>
+          <a href="#">PDF</a>
+        </li>
+
+        <!-- More notes here -->
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- Undergraduate Work -->
+    <section id="undergrad">
+      <h2>Undergraduate Works</h2>
+
+      <ul class="ug-list">
+        <li>
+          <strong>Undergraduate Thesis Title</strong><br>
+          Advisor: Professor Name<br>
+          <a href="#">PDF</a>
+        </li>
+
+        <li>
+          <strong>Selected Undergraduate Projects</strong>
+          <ul>
+            <li>Project title 1 [<a href="#">PDF</a>]</li>
+            <li>Project title 2 [<a href="#">PDF</a>]</li>
+            <li>Project title 3 [<a href="#">PDF</a>]</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Last updated: January 2026</p>
+    </footer>
+
+  </div>
+</body>
 </html>
