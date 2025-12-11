@@ -13,6 +13,14 @@ body {
   line-height: 1.6;
 }
 
+.note-extra {
+  font-size: 0.9rem;     /* smaller */
+  color: #666;           /* gray */
+  font-style: italic;    /* italic */
+  margin-top: 0.3rem;    /* slight spacing */
+}
+
+
 /* Page container */
 
 .page {
