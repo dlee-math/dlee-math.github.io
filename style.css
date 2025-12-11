@@ -90,37 +90,54 @@ ul {
 .pub-list {
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 
-.pub-item {
-  margin-bottom: 1rem;
+.pub-list li {
+  margin-bottom: 0.6rem;
+  white-space: normal;        /* stays one logical line unless screen is narrow */
+  font-size: 1rem;
 }
 
-.small-note {
-  font-size: 0.9rem;
-  color: #555;
-  font-style: italic;
+.pub-list li strong {
+  font-weight: 600;
 }
 
-/* Notes / undergrad lists */
+.pub-list li a {
+  color: #0055aa;
+  text-decoration: none;
+}
 
-.note-list,
-.ug-list {
+.pub-list li a:hover {
+  text-decoration: underline;
+}
+
+/* Notes */
+
+.note-list {
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 
-.note-list li,
-.ug-list li {
-  margin-bottom: 1rem;
+.note-list li {
+  margin-bottom: 0.6rem;
+  white-space: normal;
+  font-size: 1rem;
 }
 
-.note-meta,
-.ug-meta {
-  color: #555;
-  font-size: 0.95rem;
+.note-list li strong {
+  font-weight: 600;
 }
 
+.note-list li a {
+  color: #0055aa;
+  text-decoration: none;
+}
+
+.note-list li a:hover {
+  text-decoration: underline;
+}
 /* Footer */
 
 .footer {
@@ -149,3 +166,17 @@ ul {
     height: 130px;
   }
 }
+
+/* Keep hyperlink color always blue, even after visited */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #0055aa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
