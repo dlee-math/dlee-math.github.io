@@ -59,10 +59,10 @@ body {
 }
 
 .profile-photo {
-  width: 160px;
+  width: 200px;
   height: 160px;
   object-fit: cover;
-  border-radius: 8px;    /* Mild rounding */
+  border-radius: 0x;    /* Mild rounding */
   border: 2px solid #ddd;
 }
 
